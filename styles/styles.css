@@ -130,3 +130,12 @@ a {
     padding: 0 50px;
     font-weight: 900;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 40px 0px;
+}
