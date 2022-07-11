@@ -12,7 +12,7 @@ body {
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 0 25%;
+    padding: 0 20%;
 }
 
 .header-logo {
@@ -36,7 +36,7 @@ ul {
 
 .hero {
     background-color: #1F2937;
-    padding: 120px 25%;
+    padding: 120px 20%;
     display: flex;
     flex-direction: row;
     gap: 48px;
@@ -80,7 +80,7 @@ ul {
 }
 
 .info {
-    padding: 42px 25% 120px 25%;
+    padding: 42px 25% 120px 20%;
 }
 
 .info-header {
@@ -116,7 +116,7 @@ ul {
 }
 
 .quote {
-    padding: 140px 30%;
+    padding: 140px 25%;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -135,7 +135,7 @@ ul {
     flex-direction: row-reverse;
     padding: 0 50px;
     font-weight: 900;
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .footer {
