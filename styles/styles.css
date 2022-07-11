@@ -28,7 +28,7 @@ ul {
     gap: 24px;
 }
 
-a {
+.header-links a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
@@ -57,6 +57,12 @@ a {
 .hero-text {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero-text a {
+    color: #F9FAF8;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .hero-image img {
@@ -138,4 +144,53 @@ a {
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 40px 0px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+}
+
+.banner-container {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 4px;
+    padding: 12px 40px;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 100px;
+}
+
+.banner-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.banner-button button {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 4px;
+    padding: 6px 24px;
+}
+
+.banner-button a {
+    color: #F9FAF8;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.call-to-action {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.bannertext {
+    color: #E5E7EB;
 }
